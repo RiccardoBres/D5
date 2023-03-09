@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 600px;
+    height: 600px;
+    margin: 0px;
+    margin-left: 30rem;
+    margin-top: 7rem;
+    font-size:0;
+    
+}
+main div {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0;
+    position:relative;
+    
+}
+.bianco {
+    box-sizing: border-box;
+    background-color: rgb(176 140 89);
+}
+
+.nero {
+    background-color: black;
+} 
+
+span {
+    font-size: 25px;
+    font-weight: 100;
+    position: absolute;
+    
+}
+.letteresuperiori {
+    position: relative;
+    top: -27px;
+    right: -23px;
+}
+.lettereinferiori {
+    position: relative;
+    bottom: -68px;
+    right: -23px;
+
+}
+.colonnadestra {
+    position: absolute;
+    right: -17px;
+    top: 13px;
+    
+
+}
+.colonnasinistra {
+    position: absolute;
+    left: -17px;
+    top: 13px;
+
+}
+#scacchiera>div:hover {
+   background-color: red;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+/* main:nth-child(even)>div:nth-child(odd) {
+    background-color: black;
+  }
+.main:nth-child(odd)>div:nth-child(even) {
+    background-color: black;
+  } */
+
+
